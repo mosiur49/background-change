@@ -1,0 +1,35 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+   background-color: black;
+   height: 100vh;
+   width: 100vh;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding: 10px;
+    background-color: black;
+    color: rgb(0, 102, 255);
+    border: 2px solid darkmagenta;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+button:hover{
+    background-color: aqua;
+    color: black;
+    border: 1px solid green;
+}
+h3{
+    color: aliceblue;
+    font-size: 30px;
+    text-shadow: blueviolet;
+}
